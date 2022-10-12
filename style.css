@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,1);
+    width: 100%;
+    height: 84px;
+   
+}
+  .header-area a i{
+    color: #16a085;
+    font-size: 33px;
+}  
+ .header-area a{
+    font-size: 37px;
+    text-decoration: none;
+    color: black;
+} 
+.header-area ul li{
+    width: 100px;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+}
+.header-area ul li a{
+    font-size: 20px;
+    color: gray;
+}
+
+.header-area ul{
+    display: flex;
+    list-style: none;
+}
+.header-area ul li a:hover{
+    color: orange;
+}
+.img-area{
+    width: 50%;
+    
+}
+.image1{
+width:100% ;
+}
+.main-area{
+    width: 100%;
+    display: flex;
+    background-color: #F0F8FF;
+}
+.text-area{
+margin-top: 120px;
+    text-align: center;
+    width: 50%;
+}
+.text-area h1{
+    color:#15A488;
+    font-size: 70px;
+    text-shadow: 0.2rem 0.3rem 0px rgba(0,0,0,.2);
+}
+.text-area p{
+    color:gray;
+    font-size: 25px;
+    margin: 20px 70px 0px 70px;
+}
+.text-area button{
+    width: 148px;
+    height: 42px;
+    margin-top: 20px;
+    background: none;
+    border: 2px solid #15A488;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0 5px 1px #b3aeae;
+    color: #15A488;
+    transition:.4s;
+    border-radius: px;
+}
+ .text-area button i{
+    width: 30px;
+    height: 30px;
+    background: #15A488;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 10px;
+} 
+.text-area button:hover{
+    width: 155px;
+    background: #15A488;
+    color: #fff;
+    cursor: pointer;
+}
+  .text-area button :hover i{
+    background: #fff;
+    color: #15A488; 
+} 
+.services h1{
+    text-align: center;
+    
+}
+.services-section{
+    font-size: 50px;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  text-shadow:0.4rem 0.3rem 0px rgba(182, 147, 147, 0.2);
+  
+}
+.total-area{
+    width: 100%;
+    background:white;
+    border-radius: 50px;
+}
+.total-box-area{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+    margin: 0 5%;
+}
+/* ============================================= */
+.cc-1{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.aa{
+width: 100%;
+height: 100vh;
+display: flex;
+}
+.img{
+width: 40%;
+height: auto;
+}
+.img img{
+width: 100%
+}
+.about-us{
+width: 60%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about-title{
+text-align: justify;
+margin: 0 150px;
+}
+.about-title h1{
+    color:#15A488;
+    font-size: 50px;
+    text-shadow: 0.2rem 0.3rem 0px rgba(0,0,0,.2);
+   
+}
+.about-title p{
+    margin-top: 20px;
+    color:black;
+}
+
+/* ============================================= */
+.box1{
+background-image: url(image/8.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+border-radius: 20px;
+}
+.box1{
+   padding: 40px 0 0 40px;
+}
+.box1 h3{
+    padding: 45px 0 10px 0;
+}
+.box1 p{
+    padding-bottom: 20px;
+}
+#icon{
+    font-size: 50px;
+   
+}
+.box1 button{
+    padding: 5px 10px;
+}
+.box2{
+    background-image: url(image/17.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box2{
+    padding: 40px 0 0 40px;
+ }
+ .box2 h3{
+     padding: 45px 0 10px 0;
+ }
+ .box2 p{
+     padding-bottom: 20px;
+ }
+ #icon{
+     font-size: 50px;
+ }
+ .box2 button{
+     padding: 5px 10px;
+ }
+ .box3{
+    background-image: url(image/16.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box3{
+    padding: 40px 0 0 40px;
+ }
+ .box3 h3{
+     padding: 45px 0 10px 0;
+ }
+ .box3 p{
+     padding-bottom: 20px;
+ }
+ #icon{
+     font-size: 50px;
+ }
+ .box3 button{
+     padding: 5px 10px;
+ }
+ /* ===============
+ box-4
+ =================*/
+ .box4{
+    background-image: url(image/8.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box4{
+    padding: 40px 0 0 40px;
+ }
+ .box4 h3{
+     padding: 45px 0 10px 0;
+ }
+ /* .box4 p{
+      padding-bottom: 20px;
+ }  */
+ #icon{
+     font-size: 50px;
+ }
+ .box4 button{
+     padding: 5px 10px;
+ }
+ /* ==============
+ box5
+ ===============*/
+ .box5{
+    background-image: url(image/12.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box5{
+    padding: 25px 0 0 25px;
+ }
+ .box5 h3{
+     padding: 25px 0 10px 0;
+ }
+ .box5 p{
+     /* padding-bottom: 20px; */
+ }
+ #icon{
+     font-size: 50px;
+ }
+ .box5 button{
+     padding: 5px 10px;
+ }
+ /* =========
+ box6
+ =============*/
+ .box6{
+    background-image: url(image/9.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.box6{
+    padding: 25px 0 0 25px;
+ }
+  .box6 h3{
+     padding: 25px 0 10px 0;
+ } 
+ /* .box6 p{
+     padding-bottom: 20px;
+ } */
+ #icon{
+     font-size: 50px;
+     color: rgb(0, 0, 0);
+ }
+  .box6 button{
+     padding: 5px 10px;
+ } 
+ .box1 p{
+    color: black;
+ }
+ 
+ /*=============
+ box1
+ ================ */
+ 
+    
+    
+    .box1 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box1 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box1 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box1 button :hover i{
+        background: #fff;
+        color: #15A488; 
+    }  
+     /*========
+     box2
+     =========  */
+     .box2 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box2 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box2 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box2 button :hover i{
+        background: #fff;
+        color: #15A488; 
+    }    
+    /* ========
+    box3
+    ========= */
+    .box3 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box3 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box3 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box3 button :hover i{
+        background: #fff;
+        color: #15A488; 
+      }
+    /* =========
+    box4
+    ======= */
+    .box4 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box4 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box4 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box4 button :hover i{
+        background: #fff;
+        color: #15A488; 
+      }
+    /* =========
+    box5
+    ========== */
+    .box5 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box5 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box5 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box5 button :hover i{
+        background: #fff;
+        color: #15A488; 
+    }   
+    /* =====
+    box6
+    ======= */
+    .box6 button{
+        width: 148px;
+        height: 42px;
+        margin-top: 20px;
+        background: none;
+        border: 2px solid #15A488;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 5px 1px #b3aeae;
+        color: #15A488;
+        transition:.4s;
+        background-color: antiquewhite;
+        
+    }
+     .box6 button i{
+        width: 30px;
+        height: 30px;
+        background: #15A488;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 4px;
+    } 
+    .box6 button:hover{
+        width: 155px;
+        background: #15A488;
+        color:white;
+        cursor: pointer;
+
+    }
+      .box6 button :hover i{
+        background: #fff;
+        color: #15A488; 
+    } 
+    /* ========================= */
+    .doctor-section H1{
+        font-size: 70px;
+        font-weight: 900;
+        text-align: center;
+        text-shadow:0.4rem 0.3rem 0px rgba(182, 147, 147, 0.2);
+        letter-spacing: 1rem;
+        font-weight: bold;
+        color: #444;
+        text-align: center;
+        margin-top: 50px;    
+    }
+    .doctor-section{
+       
+       
+        border-radius: 10px;
+    }
+    .containear1{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        gap: 20px;
+        margin-top: 30px;
+        padding: 40px;
+        width: 100%;    
+    }
+    .containear1 .boxx{
+        margin: 10px;
+        border: 2px solid #16a085;
+        width: 355px;
+        height: 410px;
+        text-align: center;
+        border-radius: 8px;
+        
+    }
+    .containear1 .boxx img{
+        width: 252px;
+        height: 252px;
+        margin-top: 21px;
+        border: 2px solid #16a085;
+        border-radius: 8px;
+    
+    }
+    .containear1 .boxx h3{
+        padding: 10px 0;
+        font-size: 28px;    
+    }
+    .containear1 .boxx span{    
+        color: #16a085;
+        font-size: 15px;
+        text-transform:uppercase ;
+    }
+    .containear1 .boxx .icon1 a{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #16a085;
+        display:inline-block;
+        line-height: 45px;
+        border-radius: 6px;
+    }
+    .containear1 .boxx .icon1 a:hover{
+        background: #16a085;
+    }
+    .containear1 .boxx .icon1 a:hover i{
+        color: #fff;
+    }
+    .containear1 .boxx .icon1 a i{
+        font-size: 25px;
+        color: #16a085;
+    }
+    
+    /* ========================= */
+    /* form-area-start  */
+    .form-body-area{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        margin: 50px 100px;
+        border-radius: 50px;
+    }
+    .container{
+        max-width: 800px;
+        width: 100%;
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 15px;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+    }
+     .title:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 30px;
+       background:linear-gradient(135deg, #71b7e6, #9b59b6); 
+    
+    }
+    .container form .user-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0 12px 0;
+    }
+    form .user-details .input-box{
+        margin-bottom: 40px;
+        width: calc(100% / 2 - 20px);
+    }
+    .user-details .input-box input{
+        height: 35px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        border-bottom-width: 2px;
+        transition: all 0.3s ease;
+    }
+    .user-details .input-box input:focus,
+    .user-details .input-box input:valid{
+        border-color: #9b59b6;
+    }
+    form .gender-details .gender-title{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form .gender-details .category{
+        display: flex;
+        width: 80%;
+        margin: 14px 0;
+        justify-content: space-between;
+        
+       
+    }
+    .gender-details .category  label{
+       display: flex;
+       align-items: center;
+    }
+    .gender-details .category .dot-one{
+      height: 18px;
+      width: 18px;
+     background: #c9c9c9;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 5px solid transparent;
+    }
+    .gender{
+        display: flex;
+        width: 100%;
+    
+    }
+    .gender-area{
+        width: 60%;
+    }
+    .button{
+        width: 40%;
+        margin-top: 30px;;
+    }
+    .button input{
+        color: white;
+        font-size: 20px;
+        padding: 10px 25px;
+        background:linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 7px;
+    }
+    .gender-area p{
+        font-size: 25px;
+    }
+    .gender-area input {
+        margin-top: 20PX;
+    }
+    .gender{
+        font-size: 20px;
+    }
+    /* .button input:hover{
+      background-color: indigo;
+        color:white;
+    } */
+    
+    /* form-area-end  */
